@@ -43,7 +43,7 @@ public static class Grid
 
 
     //C# % operator is not a fucking modulus operator 
-    static int Mod(int x, int m) {
+    public static int Mod(int x, int m) {
         return (x%m + m)%m;
     }
     public static IEnumerable<(int x, int y)> InfiniteDirectNeighbours<T>(this Dictionary<(int x, int y), T> grid,
