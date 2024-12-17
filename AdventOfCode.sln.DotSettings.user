@@ -19,6 +19,10 @@
       &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day09Tests.PartTwo_WhenCalled_ReturnsCorrectTestAnswer&lt;/TestId&gt;
       &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day11Tests.PartOne_WhenCalled_ReturnsCorrectTestAnswer&lt;/TestId&gt;
       &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day14Tests.PartOne_WhenCalled_ReturnsCorrectTestAnswer&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day15Tests.PartOne_WhenCalled_ReturnsCorrectTestAnswer&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day15Tests.PartTwo_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day15Tests.PartTwo_WhenCalled_ReturnsCorrectTestAnswer&lt;/TestId&gt;
+      &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day15Tests&lt;/TestId&gt;
     &lt;/TestAncestor&gt;
     &lt;ProjectFile&gt;B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4/d:Days/f:Day14Tests.cs&lt;/ProjectFile&gt;
   &lt;/Or&gt;
