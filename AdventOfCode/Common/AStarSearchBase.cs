@@ -44,6 +44,7 @@ public abstract class AStarSearch<T,TS> where T : Node<TS> where TS : notnull
         }
         
 
+         t.ForEach(x => x.Reverse());
         return t;
     }
     
