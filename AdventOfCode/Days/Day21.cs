@@ -21,7 +21,7 @@ public class Day21 : ISolution
 
         private List<List<Expansion>>? _expansions = null;
 
-        public List<List<Expansion>?> Exanpsions
+        public List<List<Expansion>> Exanpsions
         {
             get
             {
@@ -35,24 +35,28 @@ public class Day21 : ISolution
         
         public long ShortestInstruction(long depth)
         {
-            if (dp.ContainsKey((From, To, depth)))
+            if (Dp.ContainsKey((From, To, depth)))
             {
-                return dp[(From, To, depth)];
+                return Dp[(From, To, depth)];
             }
             if (depth == 1)
             {
-                var foo = (Exanpsions.MinBy(exp => exp.Count).Count() ) ;
-                return foo;
+                if (Exanpsions != null)
+                {
+                    var foo = ((Exanpsions.MinBy(exp => exp.Count) ?? throw new InvalidOperationException()).Count() ) ;
+                    return foo;
+                }
             }
       
             var sums = new List<long>();
-            foreach (var expansions in Exanpsions)
-            {
-                sums.Add(expansions.Sum(x => x.ShortestInstruction(depth -1)));
-            }
+            if (Exanpsions != null)
+                foreach (var expansions in Exanpsions)
+                {
+                    sums.Add(expansions.Sum(x => x.ShortestInstruction(depth - 1)));
+                }
 
             var res = sums.Min();
-            dp[(From, To, depth)] = res;
+            Dp[(From, To, depth)] = res;
             return res;
 
         }
@@ -72,8 +76,8 @@ public class Day21 : ISolution
         { (1, 3), '0' },
         { (2, 3), 'A' },
     };
-        
-    static Dictionary<Location, char> arrowPad = new()
+
+    private static readonly Dictionary<Location, char> ArrowPad = new()
     {
 
         { (1, 0), '^' },
@@ -83,10 +87,10 @@ public class Day21 : ISolution
         { (2, 1), '>' },
     };
 
-    static Dictionary<(char,char, long), long> dp = new ();
+    private static readonly Dictionary<(char,char, long), long> Dp = new ();
 
         
-    private static Dictionary<Location, char> instructionMap = new()
+    private static readonly Dictionary<Location, char> InstructionMap = new()
     {
         { (1, 0), '>' },
         { (-1, 0), '<' },
@@ -100,7 +104,7 @@ public class Day21 : ISolution
         for (var i = 0; i < locations.Count-1; i++)
         {
            var diff = (locations[i+1].x - locations[i].x, locations[i+1].y - locations[i].y); 
-           var instruction = instructionMap[diff];
+           var instruction = InstructionMap[diff];
            instructions.Add(instruction);
            
         }
@@ -117,14 +121,14 @@ public class Day21 : ISolution
             gridToUse.Single(kvp => kvp.Value == end).Key, foo).ToList().Select(ToInstructionSet).ToList();
 
 
-        List<List<Expansion>>? toReturn = new List<List<Expansion>>();
+        List<List<Expansion>> toReturn = new List<List<Expansion>>();
         foreach (var instructionSet in instructions)
         {
             var newInstrctionSet = instructionSet.Prepend('A').ToList();
             List<Expansion> expansions = new List<Expansion>();
             for (var i = 0; i < newInstrctionSet.Count-1; i++)
             {
-                expansions.Add(new Expansion(arrowPad) { From = newInstrctionSet[i], To = newInstrctionSet[i + 1] });
+                expansions.Add(new Expansion(ArrowPad) { From = newInstrctionSet[i], To = newInstrctionSet[i + 1] });
             }
             toReturn.Add(expansions);
         }
