@@ -2,6 +2,7 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AEnumerable_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F234f401111a640febd407bcca412160987e00_003Fb8_003Fb06b1c1c_003FEnumerable_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AFirst_002Ecs_002Fl_003AC_0021_003FUsers_003Fpaulw_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fbc14b6df5cd75368b65afefb4bd2493c9facd3bbb41af2b1d0eab7e8eee87dbf_003FFirst_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AHashSet_002Ecs_002Fl_003AC_0021_003FUsers_003Fpaulw_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F9f36f47319b32af838b2a5d575986ff83918e428931b1ed44ad662b6bc8a_003FHashSet_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ALast_002Ecs_002Fl_003AC_0021_003FUsers_003Fpaulw_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F66d339ab53cf187da0ba7744a88e49238e2582f56bda486e8aabacfea415eb44_003FLast_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ALinkedList_002Ecs_002Fl_003AC_0021_003FUsers_003Fpaulw_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fded3b52c6e1f5df70d0eb72e72941c96c12d398d4383fa15061718235e7_003FLinkedList_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ANumber_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F58146eb4bfed44d7a1be8b359776fb65e55a00_003Fbc_003F4004aa8a_003FNumber_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003ANumber_002EParsing_002Ecs_002Fl_003AC_0021_003FUsers_003Fpaulw_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fde8a243f75215d958afa80cf80a41b4981a44efea7db93bffcdaf7bd6ba378c0_003FNumber_002EParsing_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
@@ -21,16 +22,15 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day23Tests.CombinationsTests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day23Tests.PartTwo_WhenCalled_ReturnsCorrectTestAnswer&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day24Tests.PartOne_WhenCalled_ReturnsCorrectTestAnswer&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day24Tests.PartTwo_WhenCalled_ReturnsCorrectTestAnswer&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day24Tests.PartTwo_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
 	
 	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=74906a54_002D7f45_002D47e9_002D9297_002D2d7865a36fb5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PartOne_WhenCalled_ReturnsCorrectTestAnswer" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day21Tests.PartOne_WhenCalled_ReturnsCorrectTestAnswer&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
+	
 	
 	
 	
