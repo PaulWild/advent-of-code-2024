@@ -25,6 +25,7 @@
     &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day24Tests.PartOne_WhenCalled_ReturnsCorrectTestAnswer&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day24Tests.PartTwo_WhenCalled_ReturnsCorrectTestAnswer&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day24Tests.PartTwo_WhenCalled_DoesNotThrowNotImplementedException&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::B8EDE237-FA5F-4415-B5C1-2E0D76B3CFC4::net9.0::AdventOfCode.Tests.Days.Day25Tests.PartOne_WhenCalled_ReturnsCorrectTestAnswer&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
