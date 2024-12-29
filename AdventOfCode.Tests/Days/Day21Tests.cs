@@ -49,6 +49,6 @@ public class Day21Tests
     {
         var actual = _sut.PartTwo(_testData);
 
-        actual.Should().Be("SomeString");
+        actual.Should().Be("154115708116294");
     }
 }

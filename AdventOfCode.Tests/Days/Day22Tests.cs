@@ -9,14 +9,6 @@ public class Day22Tests
 {
     private readonly ISolution _sut = new Day22();
     
-    // private readonly string[] _testData =
-    // {
-    //     "1",
-    //     "10",
-    //     "100",
-    //     "2024"
-    // };
-
     private readonly string[] _testData =
     {
         "1",
@@ -39,7 +31,7 @@ public class Day22Tests
     {
         var actual = _sut.PartOne(_testData);
 
-        actual.Should().Be("37327623");
+        actual.Should().Be("32272252");
     }
 
 
